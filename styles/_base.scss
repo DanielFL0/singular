@@ -1,0 +1,23 @@
+$font-stack: Helvetica, sans-serif;
+// $background: #343464;
+$background: #000000;
+$first-color: #6c4c74;
+$second-color: #c57996;
+$third-color: #dfdde6;
+$fourth-color: #5a446f;
+
+head {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font: 100% $font-stack;
+    color: $third-color;
+    margin: 0;
+    height: 100%;
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

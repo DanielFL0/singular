@@ -1,0 +1,102 @@
+@use 'base';
+
+canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+    image-rendering: pixelated;
+    image-rendering: optimizespeed;
+}
+
+picture {
+    img {
+        width: 40%;
+    }
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        color: inherit;
+        display: block;
+        padding: 2px;
+        text-decoration: none;
+    }
+}
+
+posts {
+    ul {
+        margin: 0;
+        padding: 5px;
+        list-style: none;
+    }
+}
+
+post {
+    img {
+        width: 75px;
+        height: 75px;
+        text-align: left;
+    }
+    a {
+        color: inherit;
+        text-align: right;
+        float: right;
+    }
+}
+
+resources {
+    ul {
+        margin: 0;
+        padding: 5px;
+        list-style: none;
+    }
+}
+
+resource {
+    img {
+        width: 75px;
+        height: 75px;
+        text-align: left;
+    }
+    a {
+        color: inherit;
+        text-align: right;
+        float: right;
+        text-decoration: none;
+    }
+}
+
+about {
+    ul {
+        list-style-image: url('../assets/blobkitty.gif');
+    }
+}
+
+footer {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        color: inherit;
+        display: block;
+        padding: 2px;
+        text-decoration: none;
+    }
+}
