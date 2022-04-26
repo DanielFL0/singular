@@ -4,7 +4,7 @@ canvas {
     width: 100%;
     height: 100%;
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -9999;
@@ -12,9 +12,15 @@ canvas {
     image-rendering: optimizespeed;
 }
 
+.container {
+    border-radius: 10px;
+    padding: 25px 25px;
+    background: rgba(0, 0, 0, .75);
+}
+
 picture {
     img {
-        width: 40%;
+        width: 90px;
     }
 }
 
@@ -50,37 +56,34 @@ post {
         text-align: left;
     }
     a {
+	padding: 5px;
         color: inherit;
         text-align: right;
         float: right;
+	text-decoration: none;
+    
     }
 }
 
 resources {
     ul {
-        margin: 0;
-        padding: 5px;
-        list-style: none;
-    }
-}
-
-resource {
-    img {
-        width: 75px;
-        height: 75px;
-        text-align: left;
+	list-style-image: url('../assets/service.gif');
     }
     a {
-        color: inherit;
-        text-align: right;
-        float: right;
-        text-decoration: none;
+    	color: inherit;
+	text-decoration: none;
     }
 }
 
 about {
     ul {
         list-style-image: url('../assets/blobkitty.gif');
+    } 
+}
+
+thread {
+    p {
+	color: inherit;
     }
 }
 

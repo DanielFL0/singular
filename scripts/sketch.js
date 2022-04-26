@@ -2,7 +2,6 @@ const width = window.innerWidth;
 const height = window.innerHeight;
 let world = [];
 let spacer;
-let time;
 
 function setup() {
     createCanvas(width, height);
@@ -14,7 +13,6 @@ function setup() {
     }
 
     spacer = 10;
-    time = 0;
     frameRate(60);
 }
 
@@ -30,8 +28,6 @@ function dotbg() {
 }
 
 function draw() {
-    time++;
-    background(0);
     dotbg();
 }
 
