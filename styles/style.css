@@ -24,6 +24,7 @@ canvas {
   border-radius: 10px;
   padding: 25px 25px;
   background: rgba(0, 0, 0, 0.75);
+  width: 50%;
 }
 
 picture img {
@@ -54,15 +55,14 @@ posts ul {
 post img {
   width: 75px;
   height: 75px;
-  text-align: left;
+  float: inline-start;
 }
 post a {
   padding: 5px;
   color: inherit;
-  text-align: right;
+  text-align: justify;
   float: right;
   text-decoration: none;
-  text-align: justify;
 }
 
 resources ul {
@@ -79,6 +79,7 @@ about ul {
 
 thread p {
   color: inherit;
+  text-align: justify;
 }
 
 footer ul {
