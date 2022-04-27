@@ -31,9 +31,11 @@ nav {
         padding: 0;
         list-style: none;
     }
+
     li {
         display: inline-block;
     }
+
     a {
         color: inherit;
         display: block;
@@ -54,37 +56,64 @@ post {
     img {
         width: 75px;
         height: 75px;
-        float: inline-start;
+        text-align: left;
     }
+
     a {
-	    padding: 5px;
+        padding: 5px;
         color: inherit;
-        text-align: justify;
+        text-align: right;
         float: right;
-	    text-decoration: none;
+        text-decoration: none;
     }
 }
 
 resources {
     ul {
-	    list-style-image: url('../assets/service.gif');
+        list-style-image: url('../assets/service.gif');
     }
+
     a {
-    	color: inherit;
-	    text-decoration: none;
+        color: inherit;
+        text-decoration: none;
     }
 }
 
 about {
     ul {
         list-style-image: url('../assets/blobkitty.gif');
-    } 
+    }
+}
+
+resume {
+    row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
 }
 
 thread {
-    p {
-	    color: inherit;
+    h1 {
+        color: inherit;
         text-align: justify;
+    }
+
+    p {
+        color: inherit;
+        text-align: justify;
+    }
+
+    a {
+        color: inherit;
     }
 }
 
@@ -94,9 +123,11 @@ footer {
         padding: 0;
         list-style: none;
     }
+
     li {
         display: inline-block;
     }
+
     a {
         color: inherit;
         display: block;
