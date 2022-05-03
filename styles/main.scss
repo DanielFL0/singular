@@ -44,7 +44,7 @@ nav {
     }
 }
 
-posts {
+.posts {
     ul {
         margin: 0;
         padding: 5px;
@@ -52,7 +52,7 @@ posts {
     }
 }
 
-post {
+.post {
     img {
         width: 75px;
         height: 75px;
@@ -68,7 +68,7 @@ post {
     }
 }
 
-resources {
+.resources {
     ul {
         list-style-image: url('../assets/service.gif');
     }
@@ -79,21 +79,21 @@ resources {
     }
 }
 
-about {
+.about {
     ul {
         list-style-image: url('../assets/blobkitty.gif');
     }
 }
 
-resume {
-    row {
+.resume {
+    .row {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
     }
 
-    column {
+    .column {
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
@@ -101,7 +101,7 @@ resume {
     }
 }
 
-thread {
+.thread {
     h1 {
         color: inherit;
         text-align: justify;
